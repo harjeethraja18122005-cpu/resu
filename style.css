@@ -1,0 +1,264 @@
+
+*{
+    margin:0;
+
+}
+body{
+    background-color: #080817;
+    font-family: 'Poppins', sans-serif;
+}
+
+.nav{
+    display: flex;
+    width:100%;
+    justify-content: space-around;
+    border-bottom: 1px solid rgb(124, 42, 218);
+    position: fixed;
+    background-color:#080817;
+    top:0;
+}
+.sidenav{
+    display:none;
+}
+
+.nav ul{
+    display: flex;
+    color:rgb(181, 117, 255);
+    align-items: center;
+    padding:5px;
+   
+}
+
+.nav ul li{
+    list-style: none;
+    margin:10px;
+    text-align: center;
+}
+
+.intro{
+    margin-top:10%;
+}
+
+.rajaimg{
+    display: flex;
+    position:absolute;
+    right:40px;
+    height:600px;
+    bottom:0px;
+}
+
+.raja-img-sid{
+    display:none;
+}
+
+.intro p{
+    color:rgb(181, 117, 255);
+    font-size: 20px;
+    margin-top: 50px;
+    margin-left: 40px;
+}
+
+.intro h1{
+    color:white;
+    margin-left: 40px;
+    font-size: 70px;
+}
+
+.intro .raja{
+    color:rgb(159, 88, 241);
+}
+
+.intro .intro-text{
+    color:white;
+    margin-left: 40px;
+    font-size: 24px;
+}
+
+.intro .passion{
+    color:white;
+    font-size: 20px;
+    margin-left: 40px;
+}
+
+.intro .project{
+    background-color:rgb(134, 50, 231);
+    color:white;
+    border-radius: 30px;
+    border: none;
+    height:50px;
+    width:150px;
+    margin-left: 40px;
+    margin-top:30px;
+}
+
+.intro .contact{
+    background-color:transparent;
+    border:1px solid white;
+    color:white;
+    border-radius: 30px;
+    height:50px;
+    width:150px;
+    margin-left: 40px;
+    margin-top:30px;
+}
+
+.raja-img{
+    background:linear-gradient(to bottom,rgb(134, 50, 231),rgb(79, 23, 143));
+    width:46%;
+    height:569px;
+    display: flex;
+    position: absolute;
+    margin-left: 720px;
+    margin-bottom: 0;
+    right:0;
+    bottom:0;
+    clip-path: polygon(20% 0, 100% 0, 100% 100%, 0 100%);
+}
+
+
+
+
+@media (min-width:300px) and (max-width:768px){
+    .nav{
+        display:none;
+    }
+    .sidenav{
+        display:block;
+        width:100%;
+        color:rgb(181, 117, 255);
+        justify-content:center;
+        border-bottom: 1px solid rgb(124, 42, 218);
+        padding-bottom:15px;
+        position: fixed;
+        background-color:#080817;
+        top:0;
+    }
+
+    .sidenav ul{
+    display: flex;
+    color:rgb(181, 117, 255);
+    justify-content: center;
+    padding:0;
+}
+
+.sidenav ul li{
+    list-style: none;
+    margin-left:10px;
+}
+
+.intro{
+    margin-top:40%;
+}
+
+.raja-img-sid{
+    display:block;
+    background:linear-gradient(to bottom,rgb(134, 50, 231),rgb(79, 23, 143));
+    width:100%;
+    height:400px;
+    display: flex;
+    margin-top:50px;
+}
+
+.raja-img-sid img {
+    display: block;
+  height:400px;
+  margin:0;
+  margin: 0 auto;
+}
+
+
+.raja-img{
+    display: none;
+    }
+
+    .intro h1{
+        font-size: 40px;
+    }
+
+  .intro .intro-text{
+    font-size: 20px;
+  }
+
+  .intro .passion{
+    font-size: 15px !important;
+  }
+
+
+  .btn{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .btn .project, 
+  .btn .contact{
+    width:140px;
+    height:40px;
+    padding:0;
+    margin:0;
+    margin-top:10px;
+    margin-bottom: 10px;
+  }
+
+
+}
+
+@media (min-width:425px) and (max-width:767px){
+    .intro{
+        margin-top:23%;
+    }
+}
+
+@media (min-width:769px) and (max-width:1010px){
+    .raja-img-sid{
+    display:block;
+    background:linear-gradient(to bottom,rgb(134, 50, 231),rgb(79, 23, 143));
+    width:100%;
+    height:400px;
+    display: flex;
+    margin-top:50px;
+}
+
+.raja-img-sid img {
+    display: block;
+    height:400px;
+    margin:0;
+    margin: 0 auto;
+}
+
+.intro{
+    margin-top:15%;
+}
+
+
+.raja-img{
+    display: none;
+    }
+
+.intro p{
+    font-size: 20px;
+}
+
+.intro h1{
+    font-size:50px;
+}
+
+.intro .intro-text{
+    font-size: 22px;
+}
+
+.intro .passion{
+    font-size:20;
+    width:55%;
+}
+
+.btn{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top:37%;
+    right:14%;
+}
+
+
+
+}
